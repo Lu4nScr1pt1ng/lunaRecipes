@@ -1,0 +1,190 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.logoweight {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.blackletter {
+    color: #000;
+}
+
+.primarycollorletter {
+    color: var(--primary);
+}
+
+.secondarycollorletter {
+    color: var(--secondary);
+}
+
+
+.headercustom {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+.navbar-collapse {
+    width: auto;
+}
+
+.nav-link-custom {
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: 900;
+    color: #000;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+
+}
+
+h1 {
+    color: #000;
+}
+
+.bannerh {
+    font-size: 48px;
+}
+
+
+.nav-link-custom:hover {
+    border-bottom: 4px solid var(--primary);
+}
+
+.espacamento {
+    padding-top:  160px;
+}
+
+.buscador {
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.btnhoho {
+    font-size: 28px; 
+    border-radius: 16px; 
+    width: 318px; 
+    background-color: #231010; 
+    color: var(--primary);
+    transition: all .5s ease-in-out;
+    border-color: #000;
+}
+
+.btnhoho:hover {
+    background-color: #FF0E0E;
+    transform: scale(1.1);
+    border-color: #000;
+}
+
+body {
+    background-color: #D0D0D0;
+}
+
+.searchbox {
+    border: 4px solid #000;
+    background-color: transparent;
+    border-radius: 18px; 
+    width: 55vw; 
+    height: 60px;
+    outline: none;
+}
+
+.boxrecipe {
+    width: 454px;
+    border-radius: 20px;
+}
+
+
+.receitam {
+    transition: all 0.5s ease-in-out;
+}
+
+.receitam:hover {
+    transform: scale(1.1);
+}
+
+
+.receitambox {
+    border: none; 
+    border-radius: 15px; 
+    background-color: var(--primary);
+}
+
+.textoreceitabox {
+    font-size: 36px; 
+    padding-top: 30px; 
+    color: #000;
+}
+
+.datareceitabox {
+    text-align: end; 
+    padding-right: 30px; 
+    font-size: 18px; 
+    padding-top: 35px; 
+    color: #000;
+}
+
+.distanciaReceitaBox {
+    padding-top: 90px;
+
+}
+
+.boxaddrecipe {
+    margin-top: 70px;
+    background-color: #E33C3C;
+    padding: 25px;
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.inputdis {
+    margin-top: 30px;
+}
+
+.inputis {
+    color: #000;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.inputis label {
+    padding: 50px;
+    padding-left:5px ;
+    
+}
+
+.inputis input {
+    width: 100%;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    border: 0;
+    text-decoration: none;
+    outline: 0;
+    
+}
+
+.inputis button {
+    font-weight: bold;
+    border: none;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #1AB788;
+    margin:auto;
+    display:block;
+    margin-top: 40px;
+}
+.inputis button:hover {
+    background-color:#FF0E0E ;
+    transition: all 5.ms ease-in-out;
+    transform: scale(1.1)
+}
